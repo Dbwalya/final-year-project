@@ -1,0 +1,83 @@
+.header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: #131921;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.header-logo {
+  width: 67px;
+  object-fit: contain;
+  background-color: #fff;
+  border-radius: 8px;
+  border: none;
+  padding: 4px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+.header-search {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  border: none;
+  border-radius: 24px;
+  padding: 5px 10px;
+  margin-left: 56px;
+}
+.header-searchInput {
+  height: 12px;
+  padding: 10px;
+  width: 65%;
+  border: none;
+  border-radius: 24px;
+  margin-right: 10px;
+}
+.header-searchIcon {
+  padding: 5px;
+  height: 22px;
+  background-color: rgb(196, 50, 31);
+  color: #fff;
+  cursor: pointer;
+  border-radius: 2rem;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 40px;
+}
+
+.header-optionLineOne {
+  font-size: 10px;
+}
+
+.header-optionLineTwo {
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.header-optionBasket {
+  display: flex;
+  align-items: center;
+  color: rgb(196, 50, 31);
+  margin-left: 125px;
+  cursor: pointer;
+}
+.header .header-nav a {
+  text-decoration: none;
+}
+.header-basketCount {
+  margin-left: 10px;
+  margin-right: 100px;
+  color: #fff;
+}
+.header-option {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+}
