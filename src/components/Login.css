@@ -8,6 +8,8 @@
   background-color: white;
 }
 .login-logo {
+  z-index: 1;
+  margin-left: 120px;
   margin-top: 20px;
   margin-bottom: 20px;
   object-fit: contain;
@@ -83,5 +85,36 @@
 }
 .login-container .loginRegisterButton:hover {
   background: rgb(252, 127, 82);
+  color: white;
+}
+
+.asGuest {
+  display: flex;
+  align-items: center;
+  width: 200px;
+  justify-content: space-evenly;
+}
+.asGuest > span {
+  color: rgb(0, 255, 255);
+  cursor: pointer;
+}
+h1 {
+  font-size: 60px;
+  color: rgb(30, 209, 200);
+}
+.login-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+}
+
+h3 {
+  color: white;
+  margin-right: 100px;
+}
+.link {
+  text-decoration: none;
   color: white;
 }
