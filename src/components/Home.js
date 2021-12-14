@@ -71,7 +71,7 @@ function Home({ slides }) {
           <div>
             <Link to="/shoes">
               <ProductVariety
-                image="https://i.pinimg.com/236x/97/b2/2a/97b22a18ac22e17e59654b48aec199dd.jpg"
+                image="https://i.pinimg.com/564x/b0/f9/fa/b0f9fa4288a4640e831497e5e956fbd0.jpg"
                 name="Gaming Accessories"
                 button="Men's Shoes"
               />

@@ -1,0 +1,41 @@
+.checkout_title {
+  color: rgb(223, 223, 223);
+  padding: 10px;
+  font-size: 30px;
+  margin: auto;
+  margin-top: 1.7rem;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+form input {
+  color: lightgray;
+  padding: 10px 20px;
+  border-bottom: 1px solid lightgray;
+  border-right: none;
+  border-left: none;
+  border-top: none;
+  /* margin: 5px; */
+  background: none;
+  outline: none;
+}
+form button {
+  padding: 10px;
+  font-size: 15px;
+  font-family: lucida;
+  border: none;
+  margin: 10px;
+  background: tomato;
+  color: #fff;
+  cursor: pointer;
+  transition: all ease 0.19s;
+}
+form button:hover {
+  background: none;
+  border: 1px solid tomato;
+  color: tomato;
+}
+.card-element {
+  flex: 0.8;
+}

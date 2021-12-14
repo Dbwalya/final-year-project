@@ -41,14 +41,6 @@ function Login() {
             alt=""
           />
         </Link>
-        <div>
-          <h3 className="asGuest">
-            <h1>|</h1>
-            <Link className="link" to="/">
-              <span> View as Guest </span>
-            </Link>
-          </h3>
-        </div>
       </div>
       <div className="login-container">
         <h1>Sign In</h1>
@@ -67,7 +59,7 @@ function Login() {
             onChange={(e) => setPassword(e.target.value)}
           />
         </form>
-        <button type="submit" onClick={signIn}>
+        <button type="submit" onClick={signIn} className="signin-btn">
           Sign In
         </button>
         <p>
@@ -76,7 +68,7 @@ function Login() {
           Interest-Based Ads
         </p>
 
-        <button className="loginRegisterButton" onClick={register}>
+        <button className="signup-btn" onClick={register}>
           Create your Shop Box Account
         </button>
       </div>

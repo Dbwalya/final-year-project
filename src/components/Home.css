@@ -82,6 +82,7 @@
 .product-variety-row {
   display: flex;
   justify-content: center;
-  margin-top: 30%;
+  padding-top: 30%;
   position: sticky;
+  width: 100%;
 }

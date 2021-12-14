@@ -1,0 +1,56 @@
+.success {
+  background: #000;
+  height: 300vh;
+}
+.success h2 {
+  font-size: 20px;
+}
+.success__top {
+  color: lightgray;
+  width: 100%;
+  height: 150px;
+  border-bottom: 1px solid rgb(59, 59, 59);
+  display: flex;
+  align-items: center;
+}
+.success__bottom {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.success__orderSummery {
+  margin-top: 70px;
+  flex: 0.7;
+}
+.success__image {
+  border: 1px solid lightseagreen;
+  height: 100px;
+  object-fit: contain;
+  margin: 10px;
+  border-radius: 15px;
+}
+.success__paymentSuccess {
+  flex: 0.8;
+  display: flex;
+  justify-content: center;
+}
+.success__paymentSuccess span {
+  align-self: center;
+}
+.success__topRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.success__topRight span {
+  display: flex;
+}
+.success__topRight h2 {
+  padding-bottom: 8px;
+  margin-left: 10px;
+  color: orangered;
+}
+.success__paymentSuccess h3 {
+  color: orangered;
+}

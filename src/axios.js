@@ -1,7 +1,8 @@
-import axios from 'axios';
+import axios from "axios";
 
+const sendUserData = axios.post("/", {});
 const instance = axios.create({
-    baseUrl: '...'
+  baseUrl: "...",
 });
 
 export default instance;

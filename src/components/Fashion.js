@@ -9,7 +9,7 @@ const Fashion = () => {
                     <Product id={1}title="Slim Wrist Watch Minimalist Design  Brathwait" price={29.99} image="https://i.pinimg.com/564x/1b/e5/80/1be5801d8b6d9584b6fa211baa303537.jpg" rating={7} />
                     <Product title='Watches | OPUMO Europe Our collection of men’s designer watches ranges from premium Swiss watches to innovative sports watches' price={32.50} image='https://i.pinimg.com/564x/6c/80/9f/6c809fd5b13a5be72130f7f9c99366f2.jpg' rating={6}/>
                 </div>
-                <h2>Computer Accessories</h2>
+                
                 <div className="home-row">
                     <Product title=" WatchTime New York, America's luxury watch show, kicks off tomorrow at Manhattan's Gotham" price={34.77} image="https://i.pinimg.com/564x/f0/bf/f1/f0bff1fd99298f6466c79b2d1cac2695.jpg" rating={6}/>
                     <Product title='Pierre DeRoche watches Pierre DeRoche watches in stock now. Daily new offers. Safe favorite watches buy your dream watch on Chrono24.com' price={31.47} image="https://i.pinimg.com/564x/3f/eb/78/3feb78c57c4e8107fe0d0476cd8ea7cd.jpg" rating={5}/>

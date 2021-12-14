@@ -41,10 +41,12 @@
 }
 
 .login-container form input {
-  height: 24px;
+  margin: auto;
+  height: 15px;
   width: 300px;
   border-radius: 6px;
   margin-bottom: 10px;
+  color: black;
   border: none;
   background-color: lightgray;
 }
@@ -53,50 +55,6 @@
   font-size: 12px;
   color: rgb(211, 203, 203);
   margin-bottom: 15px;
-}
-.login-container button {
-  width: 300px;
-  background: rgb(3, 129, 123);
-  border: none;
-  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.15), 0 10px 10px rgba(0, 0, 0, 0.27);
-  cursor: pointer;
-  color: #fff;
-  font-family: "Times New Roman";
-  padding: 5px 24px;
-  border-radius: 20px;
-  transition: all 0.3s ease-in-out;
-  margin-left: 23.37%;
-  margin-top: 20px;
-}
-.login-container button:hover {
-  background: rgb(58, 214, 207);
-  transform: scale(1.03);
-  color: rgb(255, 255, 255);
-}
-.login-container .loginRegisterButton {
-  background: orangered;
-  border: none;
-  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.15), 0 10px 10px rgba(0, 0, 0, 0.27);
-  cursor: pointer;
-  color: #fff;
-  font-family: "Times New Roman";
-  padding: 10px 15px;
-  border-radius: 20px;
-}
-.login-container .loginRegisterButton:hover {
-  background: rgb(252, 127, 82);
-  color: white;
-}
-
-.asGuest {
-  display: flex;
-  align-items: center;
-  width: 200px;
-  justify-content: space-evenly;
-}
-.asGuest > span {
-  color: rgb(0, 255, 255);
-  cursor: pointer;
 }
 h1 {
   font-size: 60px;
@@ -117,4 +75,21 @@ h3 {
 .link {
   text-decoration: none;
   color: white;
+}
+.signin-btn,
+.signup-btn {
+  align-self: center;
+  border: none;
+  margin: 10px;
+  width: 15rem;
+  padding: 7px 10px;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 5px;
+}
+.signin-btn {
+  background: rgb(68, 0, 0);
+}
+.signup-btn {
+  background: orangered;
 }

@@ -26,6 +26,15 @@
   width: 180px;
   height: 180px;
 }
+.checkoutProduct small {
+  color: crimson;
+  font-size: 20px;
+  padding-right: 10px;
+  font-weight: 600;
+}
+.checkoutProduct strong {
+  color: lightseagreen;
+}
 
 .checkoutProduct {
   margin-top: 23px;
