@@ -32,4 +32,5 @@ const PaymentSection = () => {
     </div>
   );
 };
+
 export default PaymentSection;
